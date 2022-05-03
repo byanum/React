@@ -1,14 +1,18 @@
-
-import './App.css';
-import Navbar from './components/Navbar';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import TextForm from "./components/TextForm";
 
 // javaScript
 
 function App() {
   return (
-  <>
-    <Navbar />
-</>
+    <>
+      <Navbar />
+
+      <div className="container">
+        <TextForm heading="Text Form" />
+      </div>
+    </>
   );
 }
 
